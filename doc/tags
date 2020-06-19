@@ -1,0 +1,14 @@
+KanvimCreate	kanvim.txt	/*KanvimCreate*
+KanvimGoToNext	kanvim.txt	/*KanvimGoToNext*
+KanvimGoToPrevious	kanvim.txt	/*KanvimGoToPrevious*
+KanvimMoveToNext	kanvim.txt	/*KanvimMoveToNext*
+KanvimMoveToPrevious	kanvim.txt	/*KanvimMoveToPrevious*
+kanvim	kanvim.txt	/*kanvim*
+kanvim-changelog	kanvim.txt	/*kanvim-changelog*
+kanvim-commands	kanvim.txt	/*kanvim-commands*
+kanvim-contents	kanvim.txt	/*kanvim-contents*
+kanvim-instalation	kanvim.txt	/*kanvim-instalation*
+kanvim-license	kanvim.txt	/*kanvim-license*
+kanvim-mappings	kanvim.txt	/*kanvim-mappings*
+kanvim-security	kanvim.txt	/*kanvim-security*
+kanvim.txt	kanvim.txt	/*kanvim.txt*

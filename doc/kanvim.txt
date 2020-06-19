@@ -1,0 +1,83 @@
+*kanvim.txt*        For Vim version 8.1.        Last change: 2020 June 18
+                 _  __                _
+                | |/ /__ _ _ ____   _(_)_ __ ___
+                | ' // _` | '_ \ \ / / | '_ ` _ \
+                | . \ (_| | | | \ V /| | | | | | |
+                |_|\_\__,_|_| |_|\_/ |_|_| |_| |_|
+
+                                    Reference Manual
+
+==============================================================================
+CONTENTS                                                     *kanvim-contents*
+
+1. Introduction ..................................................... |kanvim|
+2. Installation ......................................... |kanvim-instalation|
+3. Commands ................................................ |kanvim-commands|
+4. Mappings ................................................ |kanvim-mappings|
+5. Changelog .............................................. |kanvim-changelog|
+6. Security ................................................ |kanvim-security|
+7. License .................................................. |kanvim-license|
+
+==============================================================================
+1. Introduction                                                       *kanvim*
+
+Simple Kanban board for Vim
+Project website: <https://gitlab.com/sepbit/kanvim/>
+
+==============================================================================
+2. Installation                                           *kanvim-instalation*
+
+>
+    $ git clone https://gitlab.com/sepbit/kanvim.git
+        \ ~/.vim/pack/sepbit/start/kanvim
+    $ vim -u NONE -c "helptags ~/.vim/pack/sepbit/start/kanvim/doc" -c q
+<
+
+==============================================================================
+3. Commands                                                  *kanvim-commands*
+
+:KanvimCreate                                                   *KanvimCreate*
+    Create a new Kanban board
+
+:KanvimMoveToNext                                           *KanvimMoveToNext*
+    Move the card to the next column
+
+:KanvimMoveToPrevious                                   *KanvimMoveToPrevious*
+    Move the card to the previous column
+
+:KanvimGoToNext                                               *KanvimGoToNext*
+    Navigate to next column
+
+:KanvimGoToPrevious                                       *KanvimGoToPrevious*
+    Navigate to previous column
+
+==============================================================================
+4. Mappings                                                  *kanvim-mappings*
+
+There is no mapping defined by default, add the example to your ~/.vimrc file
+
+>
+    nmap <Leader>j KanvimGoToNext<CR>
+    nmap <Leader>k KanvimGoToPrevious<CR>
+    nmap <Leader>h KanvimMoveToNext<CR>
+    nmap <Leader>l KanvimMoveToPrevious<CR>
+<
+
+==============================================================================
+5. Changelog                                                *kanvim-changelog*
+
+1.0.0 - 2020-06-18
+    Added
+        First release
+
+==============================================================================
+5. Security                                                  *kanvim-security*
+
+If you discover any security related issues, please email <contato@sepbit.com>
+
+==============================================================================
+5. License                                                     *kanvim-license*
+
+GPL-3.0-or-later, see <https://www.gnu.org/licenses/> for more information
+
+vim:tw=78:ts=8:noet:ft=help:norl:
